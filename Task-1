@@ -1,1 +1,29 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox and Grid Layout Demonstration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Flexbox Layout</h1>
+    <div class="flex-container">
+        <div class="flex-item">Item 1</div>
+        <div class="flex-item">Item 2</div>
+        <div class="flex-item">Item 3</div>
+    </div>
+
+    <h1>Grid Layout</h1>
+    <div class="grid-container">
+        <div class="grid-item">Header</div>
+        <div class="grid-item">Main Content</div>
+        <div class="grid-item">Sidebar</div>
+        <div class="grid-item">Footer</div>
+    </div>
+
+</body>
+</html>
+
