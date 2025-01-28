@@ -1,1 +1,118 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Hero Section -->
+  <header id="hero">
+    <div class="hero-content">
+      <h1 class="hero-title">Hi, I'm Amandeep Singh</h1>
+      <p>Web Developer | UI/UX Designer</p>
+      <a href="#about" class="cta-button">Learn More About Me</a>
+    </div>
+  </header>
+
+   <!-- About Me Section -->
+   <section id="about">
+    <h2>About Me</h2>
+    <p>Hello! I'm Amandeep Singh, a passionate web developer with a love for creating beautiful and functional websites. I specialize in front-end development and enjoy turning complex problems into simple, user-friendly solutions.</p>
+    <p>I have a background in Web Developer, and I’m constantly learning new technologies and improving my skills. When I’m not coding, you can find me exploring new tech trends, reading about web design, or working on personal projects.</p>
+    <p>My goal is to build web applications that make an impact and provide users with meaningful experiences. Let's build something great together!</p>
+  </section>
+
+
+  <!-- Skills Section -->
+  <section id="skills">
+    <h2>My Skills</h2>
+    <div class="skills-container">
+      <div class="skill">
+        <h3>HTML & CSS</h3>
+        <div class="skill-bar html-bar"></div>
+      </div>
+      <div class="skill">
+        <h3>JavaScript</h3>
+        <div class="skill-bar js-bar"></div>
+      </div>
+      <div class="skill">
+        <h3>React</h3>
+        <div class="skill-bar react-bar"></div>
+      </div>
+      <div class="skill">
+        <h3>Node.js</h3>
+        <div class="skill-bar node-bar"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio Section -->
+  <section id="portfolio">
+    <h2>My Portfolio</h2>
+    <div class="portfolio-grid">
+      <div class="portfolio-item">
+        <img src="project1.jpg" alt="Project 1">
+        <h3>Project One</h3>
+        <p>Responsive website built with HTML, CSS, and JavaScript.</p>
+        <a href="#" class="project-link">View Project</a>
+      </div>
+      <div class="portfolio-item">
+        <img src="project2.jpg" alt="Project 2">
+        <h3>Project Two</h3>
+        <p>A React-based application with dynamic state management.</p>
+        <a href="#" class="project-link">View Project</a>
+      </div>
+      <div class="portfolio-item">
+        <img src="project3.jpg" alt="Project 3">
+        <h3>Project Three</h3>
+        <p>Full-stack application built with Node.js and MongoDB.</p>
+        <a href="#" class="project-link">View Project</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section id="testimonials">
+    <h2>What People Say</h2>
+    <div class="testimonials-container">
+      <div class="testimonial">
+        <p>"Amandeep is an excellent developer. He helped us build our website in record time!"</p>
+        <h4>Gurpreet Singh</h4>
+        <p>CEO, Tech Company</p>
+      </div>
+      <div class="testimonial">
+        <p>"A fantastic experience working with Amandeep. Highly recommend!"</p>
+        <h4>Mark Johnson</h4>
+        <p>Lead Developer, Web Agency</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form id="contact-form">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Amandeep Singh. All Rights Reserved.</p>
+    <div class="social-media">
+      <a href="https://github.com/amandeepsingh7592" target="_blank" title="GitHub">GitHub</a>
+      <a href="https://www.linkedin.com/in/amandeepsingh0366/" target="_blank" title="LinkedIn">LinkedIn</a>
+            </div>
+
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
